@@ -41,7 +41,32 @@
     font-weight: 500;
 }
 
-.more-section{
+.more-container-a{
     display: flex;
-    margin-top: 20px;
+    flex-direction: row;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+/* 
+.more-container-b{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 5px;
+} */
+.img-more-section{
+    height: 250px !important;
+    width: 250px !important;
+}
+
+.image-aa{
+    height: 60dvh !important;
+
+}
+
+body{
+    background-color: #080B22 !important;
+    color:#38BDF8;
 }
